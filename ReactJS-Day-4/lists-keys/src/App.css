@@ -1,0 +1,31 @@
+.container {
+  padding: 20px;
+  font-family: Arial;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 8px 0;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.badge {
+  padding: 3px 8px;
+  border-radius: 4px;
+  color: white;
+  font-size: 12px;
+}
+
+.low { background: green; }
+.medium { background: orange; }
+.high { background: red; }
